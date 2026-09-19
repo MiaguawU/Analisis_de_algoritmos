@@ -1,0 +1,1 @@
+Realizar un programa que al dar una cadena devuelva las permutaciones de la misma

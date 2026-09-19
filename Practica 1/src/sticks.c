@@ -71,7 +71,7 @@ int palitos(int palos[], int len) {
         return -1;
     for (int A = maxA; A >= 1; A--) {
         int B = mitad - A;
-        if (A > B) continue;
+        if (A>B) continue;
         if (palos[0] > B) continue;
 
         if (puede_form(palos, len, A, B)) {

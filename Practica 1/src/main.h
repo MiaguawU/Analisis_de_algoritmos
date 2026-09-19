@@ -5,9 +5,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define   MAX_K          100
-#define   MAX_N          15000
-#define   MAX_DIf_DIG    5000
+#define MAX_N   100
 
 typedef enum { 
     NINGUNO, 

@@ -56,7 +56,7 @@ bool ctr_cifrado() {
         setbuf(stdin,NULL);
         if (scanf("%d", &mensaje[i]) != 1) 
             return false;
-        if (mensaje[i] <= 0 || mensaje[i] > MAX_N) 
+        if (mensaje[i] < 0 || mensaje[i] > MAX_N) 
             return false;
     }
     int max = maximo(mensaje, k);
@@ -65,7 +65,7 @@ bool ctr_cifrado() {
         return false;
     printf("Resultado:\n");
     for (int i = 0; i < k; i++) {
-        printf("%d\n", primos[mensaje[i] - 1]);
+        printf("%d\n", primos[mensaje[i]==0? 0: mensaje[i]-1]);
     }
     free(primos);
     return true;
