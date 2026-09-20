@@ -9,6 +9,6 @@
 #define ERROR        -1
 
 bool ctr_perm();
-bool ctr_perm_consola()
+bool ctr_perm_consola();
 
 #endif
