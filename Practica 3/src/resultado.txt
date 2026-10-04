@@ -1,0 +1,7 @@
+Introduzca la longitud
+100000
+Introduzca la opcion
+1
+BUBBLE-SORT
+
+Tiempo de ejecución: 15.383000 segundos
