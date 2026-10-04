@@ -1,2 +1,2 @@
-6
-ABCDEF
+4
+ABCD

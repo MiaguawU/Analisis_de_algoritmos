@@ -11,7 +11,7 @@ crear archivo entrada.txt poner datos
 gcc pr2.c -o pr2; .\pr2; code resultado.txt
 */
 int main(){
-    if(!ctr_perm()){
+    if(!ctr_perm_consola()){
         printf("ERROR");
     }
     return 0;

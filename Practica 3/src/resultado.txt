@@ -1,0 +1,19 @@
+Introdusca la longitud
+10
+Introdusca la opcion
+4
+MERGE-SORT
+
+Arreglo ordenado: 
+
+
+-9479
+-5381
+-4680
+-1309
+-372
+92
+245
+5593
+8678
+
