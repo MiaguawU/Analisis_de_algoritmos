@@ -1,7 +1,7 @@
 #include "main.h"
 
 bool bubble_sort(int n, int *arr) {
-    int i, j, aux, fin = n - 1, ultimo = 0;
+    int j, fin = n - 1, ultimo = 0;
 
     while (fin > 0) {
         ultimo = 0;
