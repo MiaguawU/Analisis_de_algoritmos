@@ -12,47 +12,63 @@ gcc pr3.c -o pr3; .\pr3; code resultado.txt
 */
 
 bool main(){
-    int n;
-    int accion;
+    int *n= (int *)malloc(sizeof(int));
+    int *accion= (int *)malloc(sizeof(int));
+    if(n==NULL || accion==NULL) return ERROR;
     //1, bubble, 2, insertion, 3, selection, 4, merge
-    if(!abrir_archivos(&n, &accion)) return ERROR;
+    if(!abrir_archivos(n, accion)) return ERROR;
     
     //generar el arreglo 
     int *arr;
-    if(!gen_arr(n,&arr)) return ERROR;
+    if(!gen_arr(*n,&arr)) return ERROR;
     
     bool ok;
-    switch (accion)
-    {
-    case Bubble:
-        printf("BUBBLE-SORT\n");
-        break;
-    case Insertion:
-        printf("INSERTION-SORT\n");
-        ok= insertion_sort(n, arr);
-        break;
-    case Selection:
-        printf("SELECTION-SORT\n");
-        break;
-    case Merge:
-        printf("MERGE-SORT\n");
-        ok=ctr_mer(n,arr);
-        break;
-    
-    default:
-        printf("BUBBLE\n");
-        break;
+    char *contunua = (char *)malloc(sizeof(char));
+    if(contunua==NULL){
+        return ERROR;
     }
-    
-    if(ok && n<=50){
-        printf("\nArreglo ordenado: \n\n\n");
 
-        for(int i=0;i< n;i++){
-                printf("%d\n",*(arr+i));
+    do{
+        switch (*accion)
+        {
+        case Bubble:
+            printf("BUBBLE-SORT\n");
+            break;
+        case Insertion:
+            printf("INSERTION-SORT\n");
+            ok= insertion_sort(*n, arr);
+            break;
+        case Selection:
+            printf("SELECTION-SORT\n");
+            break;
+        case Merge:
+            printf("MERGE-SORT\n");
+            ok=ctr_mer(*n,arr);
+            break;
+        
+        default:
+            printf("BUBBLE\n");
+            break;
         }
-        printf("\n");}
-    
+        
+        if(ok && *n<=50){
+            printf("\nArreglo ordenado: \n\n\n");
+
+            for(int i=0;i< *n;i++){
+                    printf("%d\n",*(arr+i));
+            }
+            printf("\n");
+        }
+
+        
+        if(!leer_entradas(&n, &accion, contunua, false)) return ERROR;
+    }
+    while(*contunua=='Y');
+
     cerrar_archivos();
     free(arr);
+    free(n);
+    free(accion);
+    free(contunua);
     return true;
 }

@@ -21,6 +21,8 @@ typedef enum{
 //
 bool abrir_archivos(int *n, int* accion);
 void cerrar_archivos();
+//leer entradas
+bool leer_entradas(int **n, int **accion, char* seguir, bool primera);
 
 //arreglo
 bool arr_rand(int *arr,const int *n);

@@ -1,19 +1,44 @@
-Introdusca la longitud
+Introduzca la longitud
 10
-Introdusca la opcion
+Introduzca la opcion
 4
 MERGE-SORT
 
 Arreglo ordenado: 
 
 
--9479
--5381
--4680
--1309
--372
-92
-245
-5593
-8678
+-9950
+-8698
+-7753
+-7268
+-3539
+-3271
+1487
+2284
+8342
 
+Desea continuar
+Letra: Y
+Introduzca la longitud
+10
+Introduzca la opcion
+2
+INSERTION-SORT
+
+Arreglo ordenado: 
+
+
+-9950
+-8698
+-7753
+-7268
+-3539
+-3271
+1487
+2284
+8342
+
+Desea continuar
+Letra: N
+Introduzca la longitud
+Error al leer la longitud
