@@ -1,0 +1,65 @@
+Introduzca la longitud
+10
+Introduzca la opcion
+1
+Pivote PRIMERO
+
+Arreglo ordenado: 
+
+
+-9124
+-9057
+-6601
+-4258
+-1877
+-78
+767
+3824
+6163
+
+Desea continuar
+Letra: Y
+Introduzca la longitud
+10
+Introduzca la opcion
+2
+Pivote ULTIMO
+
+Arreglo ordenado: 
+
+
+-9124
+-9057
+-6601
+-4258
+-1877
+-78
+767
+3824
+6163
+
+Desea continuar
+Letra: Y
+Introduzca la longitud
+10
+Introduzca la opcion
+3
+Pivote RANDOM
+
+Arreglo ordenado: 
+
+
+-9124
+-9057
+-6601
+-4258
+-1877
+-78
+767
+3824
+6163
+
+Desea continuar
+Letra: N
+Introduzca la longitud
+Error al leer la longitud
