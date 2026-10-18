@@ -1,0 +1,7 @@
+Introduzca la longitud
+30000
+Introduzca la opcion
+7
+QUICK SORT, peor de los casos, pivote aleatorio
+
+Tiempo de ejecución: 0.001000 segundos
