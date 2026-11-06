@@ -215,4 +215,4 @@ bool strassen_winograd_hibrido(int n, int NA, int *A, int ai, int aj, int NB, in
     liberar_arreglo(temporales, 19);
 
     return true;
-}
+} 
