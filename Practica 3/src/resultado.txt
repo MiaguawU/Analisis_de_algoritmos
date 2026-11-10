@@ -1,9 +1,14 @@
 Introduzca la longitud
+<<<<<<< HEAD
 10
+=======
+10000
+>>>>>>> ulises
 Introduzca la opcion
 4
 MERGE-SORT
 
+<<<<<<< HEAD
 Arreglo ordenado: 
 
 
@@ -42,3 +47,6 @@ Desea continuar
 Letra: N
 Introduzca la longitud
 Error al leer la longitud
+=======
+Tiempo de ejecución: 0.002000 segundos
+>>>>>>> ulises

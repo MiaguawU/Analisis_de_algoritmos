@@ -21,8 +21,11 @@ typedef enum{
 //
 bool abrir_archivos(int *n, int* accion);
 void cerrar_archivos();
+<<<<<<< HEAD
 //leer entradas
 bool leer_entradas(int **n, int **accion, char* seguir, bool primera);
+=======
+>>>>>>> ulises
 
 //arreglo
 bool arr_rand(int *arr,const int *n);
@@ -31,5 +34,10 @@ bool gen_arr(int n,int **arr);
 //metodos
 bool ctr_mer(int n, int *arr);
 bool insertion_sort(int n, int *arr);
+<<<<<<< HEAD
+=======
+bool bubble_sort(int n, int *arr);
+bool selection_sort(int n, int *arr);
+>>>>>>> ulises
 
 #endif

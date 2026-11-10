@@ -1,0 +1,15 @@
+
+Tiempo de ejecucion (Strassen puro):    12.872000 segundos
+
+Tiempo de ejecucion (Strassen-Winograd): 0.299000 segundos
+
+Tiempo de ejecucion (Tradicional):      0.469000 segundos
+
+Resultados coinciden: SI
+
+=Tiempos
+Tamano de la matriz: 512 x 512
+Strassen puro:      12.872000 s
+Strassen-Winograd:  0.299000 s
+Tradicional:        0.469000 s
+====================================================

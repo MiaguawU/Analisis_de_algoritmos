@@ -1,5 +1,6 @@
 #include "main.h"
 
+<<<<<<< HEAD
 bool leer_entradas(int **n, int **accion, char *seguir, bool primera)
 {
     char buffer[50];
@@ -41,6 +42,8 @@ bool leer_entradas(int **n, int **accion, char *seguir, bool primera)
     return true;
 }
 
+=======
+>>>>>>> ulises
 bool abrir_archivos(int *n, int* accion){
     freopen("entrada.txt", "r", stdin);   
     freopen("resultado.txt", "w", stdout); 
@@ -50,10 +53,34 @@ bool abrir_archivos(int *n, int* accion){
         return ERROR;
     }
 
+<<<<<<< HEAD
     if(!leer_entradas(&n,&accion, NULL, true)){
         printf("Error al leer las entrada\n");
         return ERROR;
     }
+=======
+    char buffer[50];
+
+    printf("Introduzca la longitud\n");
+    if (fgets(buffer, sizeof(buffer), stdin) != NULL) {
+        *n = atoi(buffer);
+        printf("%d\n", *n);
+    } else {
+        printf("Error al leer la longitud\n");
+        return ERROR;
+    }
+
+    printf("Introduzca la opcion\n");
+    if (fgets(buffer, sizeof(buffer), stdin) != NULL) {
+        *accion = atoi(buffer);
+        printf("%d\n", *accion);
+        (*accion)-=1;
+    } else {
+        printf("Error al leer la opcion\n");
+        return ERROR;
+    }
+
+>>>>>>> ulises
     return true;
 }
 

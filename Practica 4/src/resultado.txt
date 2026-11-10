@@ -1,4 +1,5 @@
 Introduzca la longitud
+<<<<<<< HEAD
 10
 Introduzca la opcion
 1
@@ -63,3 +64,11 @@ Desea continuar
 Letra: N
 Introduzca la longitud
 Error al leer la longitud
+=======
+30000
+Introduzca la opcion
+7
+QUICK SORT, peor de los casos, pivote aleatorio
+
+Tiempo de ejecución: 0.001000 segundos
+>>>>>>> ulises
