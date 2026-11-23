@@ -1,0 +1,49 @@
+MATRIZ A (Tamano 4 x 4)
+
+   0   0   1   0
+   2   2   0   1
+   2   1   1   1
+   1   0   0   0
+
+MATRIZ B (Tamano 4 x 4)
+
+   0   1   2   1
+   0   0   0   2
+   2   0   2   0
+   2   0   1   0
+
+Tiempo de ejecucion (Strassen puro):    0.000000 segundos
+
+Tiempo de ejecucion (Strassen-Winograd): 0.000000 segundos
+
+Tiempo de ejecucion (Tradicional):      0.000000 segundos
+
+Resultados coinciden: SI
+
+MATRIZ RESULTADO C (Strassen puro)
+
+   2   0   2   0
+   2   2   5   6
+   4   2   7   4
+   0   1   2   1
+
+MATRIZ RESULTADO C (Strassen-Winograd)
+
+   2   0   2   0
+   2   2   5   6
+   4   2   7   4
+   0   1   2   1
+
+MATRIZ RESULTADO C (Tradicional)
+
+   2   0   2   0
+   2   2   5   6
+   4   2   7   4
+   0   1   2   1
+
+=Tiempos
+Tamano de la matriz: 4 x 4
+Strassen puro:      0.000000 s
+Strassen-Winograd:  0.000000 s
+Tradicional:        0.000000 s
+====================================================
